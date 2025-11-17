@@ -706,3 +706,110 @@ letter-spacing: 0%;
     left: 150px;
     bottom: 30px;
 }
+
+
+.testimonial-section {
+  padding: 80px 0;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  position: relative;
+  background: #fff;
+}
+
+
+
+
+.section-top .badge {
+  background: #e8f0ff;
+  padding: 6px 18px;
+  height: 30px;
+  width: 150px;
+  
+  color: #4e73df;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.section-top h2 {
+  font-size: 32px;
+  margin-top: 16px;
+  font-weight: 700;
+}
+
+
+.testimonial-row {
+  margin-top: 50px;
+  display: flex;
+  justify-content: first baseline;
+  gap: 26px;
+  position: relative;
+  z-index: 2;
+  /* border: 2px solid red; */
+  /* width: 2500px; */
+}
+
+
+.t-card {
+  width: 520px;
+  background: #fff;
+  border-radius: 20px;
+  display: flex;
+  overflow: hidden;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.08);
+  transition: 0.3s;
+}
+
+.t-card.active {
+  transform: translateY(-10px);
+}
+
+
+.t-img img {
+  width: 240px;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.t-content {
+  padding: 24px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.rating {
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.rating span {
+  font-size: 16px;
+  font-weight: 400;
+  color: #666;
+}
+
+.stars {
+  font-size: 18px;
+  color: #f7c000;
+  margin: 10px 0 16px;
+  letter-spacing: 2px;
+}
+
+.t-content p {
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  font-size: 15px;
+  width: 95%;
+}
+
+.author strong {
+  font-size: 16px;
+}
+
+.author small {
+  font-size: 13px;
+  color: #777;
+}
