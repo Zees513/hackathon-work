@@ -671,3 +671,38 @@ text-align: center;
 .rent-btn:hover {
   background: #125fe0;
 }
+.more{
+    width: 216px;
+height: 48px;
+gap: 8px;
+border-radius: 8px;
+border-width: 1px;
+padding: 8px;
+border: 2px solid rgb(146, 146, 151);
+position: relative;
+top: 150px;
+margin: 0 auto;
+}
+.more .text{
+    width: 140px;
+height: 20px;
+/* border: 2px solid red; */
+margin: 0 auto;
+position: relative;
+top: 5px;
+right: 20px;
+}
+.more .text p{
+    font-family: Poppins;
+font-weight: 500px;
+font-style: Medium;
+font-size: 18px;
+line-height: 130%;
+letter-spacing: 0%;
+
+}
+.more .text p>img{
+    position: relative;
+    left: 150px;
+    bottom: 30px;
+}
