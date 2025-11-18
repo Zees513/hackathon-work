@@ -745,7 +745,7 @@ letter-spacing: 0%;
   position: relative;
   z-index: 2;
   /* border: 2px solid red; */
-  /* width: 2500px; */
+  /* width: 50000px; */
 }
 
 
@@ -812,4 +812,181 @@ letter-spacing: 0%;
 .author small {
   font-size: 13px;
   color: #777;
+}
+.download{
+    width: 100%;
+height: 500px;
+/* border: 2px solid red; */
+}
+.download .download-text{
+    width: 480px;
+height: 300.7425842285156px;
+position: relative;
+top: 100px;
+left: 160px;
+gap: 40px;
+/* border: 2px solid blue; */
+}
+.download-text .top-header{
+  width: 480px;
+height: 158px;
+gap: 24px;
+/* border: 2px solid red; */
+}
+.top-header .heading{
+    width: 146px;
+height: 42px;
+gap: 8px;
+border-radius: 8px;
+padding-top: 16px;
+padding-right: 32px;
+padding-bottom: 16px;
+padding-left: 32px;
+background-color: #1572D31A;
+color: #125fe0;
+/* border: 2px solid green; */
+}
+.top-header .heading p{
+    font-family: Poppins;
+font-weight: 500;
+font-style: Medium;
+font-size: 14px;
+
+line-height: 150%;
+letter-spacing: 0%;
+
+}
+.top-header .heading2{
+    width: 480px;
+height: 92px;
+/* border: 2px solid green; */
+}
+.top-header .heading2 p{
+    font-family: Poppins;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 48px;
+
+line-height: 120%;
+letter-spacing: 0%;
+
+}
+.top-header .heading2 p span{
+    font-family: Poppins;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 48px;
+
+line-height: 120%;
+letter-spacing: 0%;
+color: #125fe0;
+}
+.download-text .para{
+    width: 365px;
+height: 11px;
+/* border: 2px solid red; */
+position: relative;
+top: 20px;
+}
+.download-text .para p {
+    font-family: Poppins;
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 0%;
+
+}
+.download-text .icon-image{
+width: 366px;
+height: 51.742591857910156px;
+gap: 16.26px;
+/* border: 2px solid blue; */
+position: relative;
+top: 50px;
+}
+.download .image{
+    width: 520.2221069335938px;
+height: 450px;
+position: relative;
+bottom: 220px;
+left: 839px;
+z-index: -1;
+/* border: 2px solid blue; */
+}
+.footer {
+    background: #03203C;
+    color: #fff;
+    padding: 60px 10%;
+    font-size: 14px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+/* Logo */
+.logo {
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+/* Headings smaller (same as picture) */
+.footer-col h4 {
+    font-size: 15px;
+    margin-bottom: 18px;
+    font-weight: 500;
+}
+
+/* ICON with address/phone/email */
+.company p {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+}
+
+
+/* List style */
+.footer-col ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-col ul li {
+    margin: 7px 0;
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+.footer-col ul li:hover {
+    color: #00aaff;
+}
+
+/* Social icons */
+.social-images .social-icon {
+    width: 22px;
+    height: 22px;
+    margin-right: 15px;
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+.social-images .social-icon:hover {
+    opacity: 0.7;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #2f4458;
+    margin: 40px 0 20px;
+}
+
+copyright {
+    text-align: center;
+    font-size: 13px;
+    opacity: 0.8;
 }
