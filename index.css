@@ -155,121 +155,6 @@ left: 600px;
 
 }
 
-  
-
-@media (max-width: 992px) {
-
-    .navbar {
-        width: 100%;
-        left: 0 !important;
-        top: 20px;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        padding-left: 20px;
-    }
-
-    .nav {
-        right: 0 !important;
-        left: 0 !important;
-        bottom: 0 !important;
-        margin-top: 10px;
-    }
-
-    .nav ul li a {
-        left: 0 !important;
-        margin: 10px 0;
-        display: inline-block;
-    }
-
-    .buttons {
-        left: 0 !important;
-        margin-top: 15px;
-    }
-
-
-    .hero-section {
-        flex-direction: column;
-    }
-
-    .hero-content {
-        left: 0 !important;
-        top: 50px !important;
-        padding: 20px;
-    }
-
-    .hero-img {
-        width: 100% !important;
-        left: 0 !important;
-        bottom: 0 !important;
-        margin-top: 20px;
-        position: static !important;
-    }
-}
-
-
-
-
-
-@media (max-width: 768px) {
-
-    
-    .nav {
-        display: none !important;
-    }
-
-    .navbar {
-        align-items: center !important;
-        text-align: center;
-        padding: 0;
-    }
-
-    .buttons {
-        margin: 10px auto !important;
-    }
-
-    .hero-text h1 {
-        font-size: 30px !important;
-        text-align: center;
-    }
-
-    .hero-para p {
-        font-size: 16px !important;
-        text-align: center;
-        top: 10px !important;
-    }
-
-    .hero-images {
-        margin: 20px auto !important;
-    }
-
-    .hero-images img {
-        width: 48% !important;
-    }
-
-    .hero-img img {
-        width: 100% !important;
-    }
-}
-
-
-
-@media (max-width: 480px) {
-
-    #btn1, #btn2 {
-        width: 90px !important;
-        height: 32px !important;
-    }
-
-    .hero-text h1 {
-        font-size: 24px !important;
-    }
-
-    .hero-images img {
-        width: 100% !important;
-        margin-bottom: 10px;
-    }
-}
 
 .hero-bar{
     width: 1000px;
@@ -989,4 +874,168 @@ copyright {
     text-align: center;
     font-size: 13px;
     opacity: 0.8;
+}
+
+/* Mobile: up to 767px */
+@media (max-width: 767px) {
+    /* Navbar */
+    .navbar {
+        width: 100%;
+        left: 0;
+        top: 10px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .navbar .nav ul {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .navbar .nav ul li a {
+        left: 0;
+        font-size: 14px;
+    }
+
+    /* Buttons */
+    .buttons {
+        width: 100%;
+        justify-content: center;
+        gap: 10px;
+        left: 0;
+        bottom: 0;
+    }
+
+    /* Hero section */
+    .hero-content {
+        width: 90%;
+        left: 0;
+        top: 100px;
+        text-align: center;
+    }
+    .hero-img {
+        width: 90%;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 100px;
+    }
+    .hero-bar {
+        width: 95%;
+        left: 2.5%;
+        flex-direction: column;
+        gap: 15px;
+        justify-content: center;
+    }
+
+    /* Steps */
+    .steps .steps-define {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    /* Offers */
+    .offer {
+        flex-direction: column;
+        align-items: center;
+    }
+    .offer .offer-img,
+    .offer .why-choose {
+        width: 95%;
+        left: 0;
+        bottom: 0;
+        text-align: center;
+    }
+
+    /* Popular cards / car cards */
+    .popular-cards-material,
+    .car-cards {
+        flex-direction: column;
+        align-items: center;
+        width: 95%;
+        left: 0;
+        gap: 20px;
+    }
+
+    /* Testimonials */
+    .testimonial-row {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    /* Download section */
+    .download .download-text,
+    .download .image {
+        width: 95%;
+        left: 0;
+        bottom: 0;
+        text-align: center;
+    }
+
+    /* Logos */
+    .logos {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+}
+
+/* Tablet: 768px - 1023px */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .navbar {
+        width: 90%;
+        left: 5%;
+        top: 20px;
+    }
+    .navbar .nav ul li a {
+        left: 0;
+        font-size: 15px;
+    }
+    .buttons {
+        width: 90%;
+        left: 0;
+        justify-content: center;
+    }
+    .hero-content {
+        width: 50%;
+        left: 5%;
+        top: 150px;
+        text-align: left;
+    }
+    .hero-img {
+        width: 80%;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 150px;
+    }
+    .hero-bar {
+        width: 90%;
+        left: 5%;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+    }
+    .steps .steps-define,
+    .popular-cards-material,
+    .car-cards,
+    .testimonial-row {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .offer {
+        flex-direction: column;
+        align-items: center;
+    }
+    .offer .offer-img,
+    .offer .why-choose {
+        width: 90%;
+        left: 0;
+        bottom: 0;
+    }
+    .download .download-text,
+    .download .image {
+        width: 90%;
+        left: 0;
+        bottom: 0;
+    }
 }
