@@ -1160,10 +1160,6 @@ top: 280px;
     height: 200px;
   }
 
-  .download .image {
-    position: relative;
-    right: 500px;
-  }
 }
 
 /* Mobile */
@@ -1194,28 +1190,13 @@ top: 280px;
   .testimonial-section{
     position: relative;
     top: 1800px;
-    left: 120px;
+    left: 50px;
   }
   .download{
     position: relative;
     top: 1800px;
   }
-  .download .image{
-    position: relative;
-    right: 300px;
-  }
-  .footer{
-    position: relative;
-    top: 1800px;
-    left: 120px;
-    /* max-width: 100%; */
-  }
-
-  .footer-container {
-    flex-direction: column;
-    align-items: center;
-    max-width: 100%;
-  }
+  
 }
 
 /* Extra small mobile */
@@ -1223,11 +1204,7 @@ top: 280px;
   .popular-cards-head .sub-heading h5 {
     font-size: 24px;
   }
-  .download .image{
-    position: relative;
-    right: 5000px;
-    top: 500px;
-  }
+  
 
   .more {
     width: 180px;
@@ -1274,7 +1251,12 @@ top: 280px;
 
   .download .image {
     margin-top: 80px;
-    max-width: 90%;
+    max-width: 50%;
+  }
+  .footer{
+    position: relative;
+    top: 1700px;
+    left:20px ;
   }
 }
 
